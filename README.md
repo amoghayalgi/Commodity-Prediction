@@ -2,7 +2,7 @@
 The goal of this project is to leverage cross‑market signals to produce stable, long‑term forecasts that support trading strategy optimization and global risk management.
 
 
-## Ridge Regression — Lag 1 Baseline and Experiments**
+## Ridge Regression — Lag 1 Baseline and Experiments  
 
 **Output files:** output_Ridge_lag1_winsor.csv Score_Summary - Ridge_lag1_winsor.csv Alpha Tuning - Ridge_lag1_winsor.csv Ridge_experiments_comparison  
 
