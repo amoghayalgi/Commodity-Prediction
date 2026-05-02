@@ -4,7 +4,7 @@ The goal of this project is to leverage cross‑market signals to produce stable
 
 ## Ridge Regression — Lag 1 Baseline and Experiments  
 
-**Output files:** output_Ridge_lag1_winsor.csv Score_Summary - Ridge_lag1_winsor.csv Alpha Tuning - Ridge_lag1_winsor.csv Ridge_experiments_comparison  
+**Output files:** 
 
 Built a multi-output Ridge regression pipeline for the lag_1 target group. Evaluated using observed RMSE (primary) and observed Spearman correlation (secondary), applied to truly observed labels only.
 
@@ -18,7 +18,7 @@ Baseline: RMSE=0.01765, Spearman=0.0295.
 Best Spearman: [interactions_top30] at 0.0379, but with slightly worse RMSE.   
 PCA-Ridge performed worst.    
 
-**Final choice:** Baseline + winsorization — lowest observed RMSE, simple, stable, reproducible.  
+**Final choice:** interactions_top30, Best Spearman!!  
 
 **Key takeaways:** Heavy regularization consistently preferred · Winsorization helped marginally · Feature selection alone did not improve · Interaction terms improved rank-order but not RMSE · Ridge best used as a stable linear baseline for ensemble.  
 
