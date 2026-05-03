@@ -34,6 +34,7 @@ Evaluated using the official score as the primary metric, applied to truly obser
 `B_raw` (raw returns under per-target framework). 
 
 **Ensemble weights** were optimized directly on the official validation score rather than equal-weighted, since weak candidates dragged the average down.   
+final_model = 0.035356671 * A_no_aug + 0.027945519 * A_aug + 0.936697811 * B_rank    
 
 **Rank-transformed Y:**     
 * if the true same-day ordering is  
