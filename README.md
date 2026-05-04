@@ -26,7 +26,7 @@ PCA-Ridge performed worst.
 
 
 
-**Ridge Regression — Rank-Aware Ensemble**
+## Ridge Regression — Rank-Aware Ensemble
 
 Evaluated using the official score as the primary metric, applied to truly observed labels only. Validation set: 392 rows. Test set: 90 scored rows (is\_scored=True, date\_id range \[1827, 1916\]).
 
