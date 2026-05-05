@@ -100,7 +100,8 @@ Full per-model scores on both sets are in `Final_Score_Summary.csv`.
 
 ---
 
-**6\_Output files:** `output_Ridge_RankY_best.csv` · `Final_Score_Summary.csv` · `Ensemble_Weights.csv` · `Test90_Score_Summary.csv`
+**6\_Output files:** 
+`output_Ridge_RankY_best.csv` · `Final_Score_Summary.csv` · `Ensemble_Weights.csv` · `Test90_Score_Summary.csv`
 ---
 # LightGBM, XGBoost, CatBoost
 The notebook implements a predictive modeling framework to forecast commodity prices or related financial targets. The primary objective is to optimize for a specific evaluation metric: the Rank Correlation Sharpe Ratio.  
@@ -168,8 +169,6 @@ HOLDOUT VALIDATION (report-only; X_val_all / Y_val_all)
 - LightGBM — Holdout validation Sharpe: 0.1189
 - XGBoost — Holdout validation Sharpe: 0.0683
 - CatBoost — Holdout validation Sharpe: 0.1478
-
-Reporting scores on holdout validation because the test scores were negative for some T.T. But the holdout set was never involved in training and is leak proof
 
 ## 5. Evaluation Metrics
 The notebook defines a custom scoring function that calculates:
