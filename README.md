@@ -162,9 +162,9 @@ The project utilizes a powerful ensemble approach, importing the following gradi
 }
 
 ## 4.Best Model
-============================================================
+
 HOLDOUT VALIDATION (report-only; X_val_all / Y_val_all)
-============================================================
+
 - LightGBM — Holdout validation Sharpe: 0.1189
 - XGBoost — Holdout validation Sharpe: 0.0683
 - CatBoost — Holdout validation Sharpe: 0.1478
