@@ -1,0 +1,9 @@
+candidate,optimized_weight,equal_weight
+A_no_aug,0.0,0.125
+A_aug,0.0,0.125
+B_raw,0.0,0.125
+B_rank,0.7975014630339509,0.125
+C_conservative,0.05169261084326036,0.125
+C_pca50,0.14903238040019462,0.125
+D_momentum,0.001773545722594283,0.125
+E_hgbr,0.0,0.125
