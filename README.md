@@ -161,7 +161,17 @@ The project utilizes a powerful ensemble approach, importing the following gradi
   "min_data_in_leaf": 77
 }
 
-## 3. Evaluation Metrics
+## 4.Best Model
+============================================================
+HOLDOUT VALIDATION (report-only; X_val_all / Y_val_all)
+============================================================
+- LightGBM — Holdout validation Sharpe: 0.1189
+- XGBoost — Holdout validation Sharpe: 0.0683
+- CatBoost — Holdout validation Sharpe: 0.1478
+
+Reporting scores on holdout validation because the test scores were negative for some T.T. But the holdout set was never involved in training and is leak proof
+
+## 5. Evaluation Metrics
 The notebook defines a custom scoring function that calculates:
 
 **Rank Correlation:** Measuring the relationship between the ranks of predicted and actual values.  
