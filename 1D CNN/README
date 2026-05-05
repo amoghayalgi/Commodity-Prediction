@@ -68,14 +68,3 @@ In your specific notebook, the model did not "decide" these automatically (e.g.,
 3.	Domain Constraints: The window_size of 30 was chosen to provide exactly one month of historical context, which is a standard "medium-term" lookback in quant trading.
 4.	Trial and Error (Feedback Loop): As seen in your previous results, these parameters were refined to move the Spearman Correlation from nearly zero up toward the 0.02 range. For example, increasing the Dropout to 0.4 was a reaction to the model overfitting on the training set but failing on validation.
 
-
-
-From a business perspective, our key recommendation is to use the equal-weight as it gives Mitsui a more reliable ranking signal across commodity markets by reducing risk thru spreading decisions across multiple credible signals.
-
-It provides more stable decision support. Since commodity returns are noisy, our model focuses on consistently ranking the best opportunities rather than trying to predict exact price changes, a more practical approach for trading, sourcing, and planning decisions.
-
-Another advantage is transparency. Each model in the ensemble has a clear role, so the system is easier to explain and monitor. The same pipeline can cover 424 targets and be refreshed with new data, it is also scalable for ongoing business use.
-
-Most importantly, this recommendation is supported by results: the equal-weight ensemble achieved the strongest test score, outperforming both the validation-optimized ensemble and every individual candidate model
-
-Overall, our project shows that the best business value comes from a model that is stable, transparent, and scalable. The equal-weight ensemble gave us the strongest and most reliable performance, making it the best fit for supporting commodity planning and decision-making. Thank you
