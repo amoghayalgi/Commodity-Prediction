@@ -171,4 +171,5 @@ Per-target tuning spans nine orders of magnitude, reflecting large heterogeneity
 `output_Ridge_RankY_final.csv` · `Final_Score_Summary.csv` · `Ensemble_Weights.csv` · `All_Alpha_Parameters.csv`
 
 ---
-Other approaches: We also explored additional model families including gradient boosting methods (LightGBM, XGBoost, CatBoost) and deep learning architectures (GRU + MLP ensemble, CNN). Please refer to the individual folders in this repository and their respective READMEs for implementation details, hyperparameters, and results.
+### Other approaches: 
+We also explored additional model families including gradient boosting methods (LightGBM, XGBoost, CatBoost) and deep learning architectures (GRU + MLP ensemble, CNN). Please refer to the individual folders in this repository and their respective READMEs for implementation details, hyperparameters, and results.
